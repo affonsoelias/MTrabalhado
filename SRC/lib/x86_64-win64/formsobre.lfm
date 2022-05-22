@@ -1,0 +1,48 @@
+object Form2: TForm2
+  Left = 514
+  Height = 94
+  Top = -361
+  Width = 378
+  HorzScrollBar.Page = 352
+  HorzScrollBar.Range = 352
+  VertScrollBar.Page = 127
+  VertScrollBar.Range = 127
+  Anchors = []
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Informativo'
+  ClientHeight = 94
+  ClientWidth = 378
+  Position = poMainFormCenter
+  LCLVersion = '2.2.0.4'
+  object Label1: TLabel
+    Left = 96
+    Height = 15
+    Top = 72
+    Width = 218
+    Caption = 'Fornecido por Affonso Elias Ferreira Junior'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 60
+    Top = 0
+    Width = 378
+    Align = alTop
+    Alignment = taCenter
+    BorderStyle = bsNone
+    Enabled = False
+    HideSelection = False
+    Lines.Strings = (
+      'MTrabalhado é um programa que tem o intuito de auxiliar os operadores do CadÚnico a calcular  os meses trabalhados dos usuários.'
+    )
+    TabOrder = 0
+  end
+end
